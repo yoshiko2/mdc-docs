@@ -1,6 +1,12 @@
 import { defaultTheme } from 'vuepress'
+import { googleAnalyticsPlugin } from '@vuepress/plugin-google-analytics'
 
 export default {
+  plugins: [
+    googleAnalyticsPlugin({
+      id: 'G-45HFEJ7BGR',
+    }),
+  ],
   theme: defaultTheme({
     locales: {
       '/en/': {
