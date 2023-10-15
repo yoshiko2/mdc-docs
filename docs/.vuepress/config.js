@@ -8,11 +8,11 @@ export default {
         navbar: [
           {
             text: 'Offical website',
-            link: '/',
+            link: 'https://www.mvdc.top',
           },
           {
             text: 'User Panel',
-            link: '/user',
+            link: 'https://user.mvdc.top',
           },
         ],
       },
@@ -21,11 +21,11 @@ export default {
         navbar: [
           {
             text: '官网',
-            link: '/',
+            link: 'https://www.mvdc.top',
           },
           {
             text: '用户面板',
-            link: '/user',
+            link: 'https://user.mvdc.top',
           },
         ],
         sidebar: [
@@ -65,11 +65,11 @@ export default {
         navbar: [
           {
             text: '官網',
-            link: '/',
+            link: 'https://www.mvdc.top',
           },
           {
             text: '用戶面板',
-            link: '/user',
+            link: 'https://user.mvdc.top',
           },
         ],
       },
