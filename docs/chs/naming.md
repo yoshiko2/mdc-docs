@@ -21,6 +21,7 @@
 
 ### 无需判断大小写
 * 普通影片 ：`ipx-xxx.mp4`
+* 多集影片 ：`ipx-xxx-CD1.mp4` `ipx-xxx-CD2.mp4` 包含其他后缀情况下-CD放最后
 * DMM/FANZA ：`test00114.mp4`
 * FC2 ：`FC2-xxxxx.mp4`
 * DLsite ：`VJxxxxxx.mp4` `RJxxxxxx.mp4`
