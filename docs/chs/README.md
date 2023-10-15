@@ -7,7 +7,7 @@
 ## 2. 购买激活码激活订阅
 **内测阶段**只开放购买一年订阅，暂无自动发放激活码，发送支付宝口令红包99元或发送14USDT到下方地址后截图，发送到此[Telegram](https://t.me/yoshiko2_dev)中
 * USDT TRC20地址: `TCVvFxeMuHFaECVMiHrxWD9b5QGX8DVQNV`
-## 3. [下载](https://github.com/yoshiko2/movie_data_capture/release/latest) 客户端
+## 3. [下载](https://github.com/yoshiko2/movie_data_capture/releases/latest) 客户端
 本文档适用版本为7.0.0及以上
 ## 4. 打开客户端 登录账号
 每个账号最多可登录4台设备
