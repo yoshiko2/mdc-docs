@@ -1,4 +1,4 @@
-# 如果报告BUG
+# 报告BUG
 请阁下按照这个模板进行BUG报告，为了方便跟踪BUG，请发送邮件至邮箱: `yoshiko2.dev@gmail.com`
 * 仅限于7.X.X版本
 
