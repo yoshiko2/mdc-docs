@@ -38,6 +38,10 @@ export default {
             link: '/chs/naming.md',
           },
           {
+            text: 'BUG报告',
+            link: '/chs/bug_report.md',
+          },
+          {
             text: '命令行参数与配置',
             link: '/chs/cli.md',
           },
