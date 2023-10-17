@@ -14,6 +14,10 @@ export default {
             text: 'User Panel',
             link: 'https://user.mvdc.top',
           },
+          {
+            text: 'Download',
+            link: 'https://github.com/yoshiko2/movie_data_capture/releases',
+          },
         ],
       },
       '/chs/': {
@@ -26,6 +30,10 @@ export default {
           {
             text: '用户面板',
             link: 'https://user.mvdc.top',
+          },
+          {
+            text: '下载',
+            link: 'https://github.com/yoshiko2/movie_data_capture/releases',
           },
         ],
         sidebar: [
@@ -74,6 +82,10 @@ export default {
           {
             text: '用戶面板',
             link: 'https://user.mvdc.top',
+          },
+          {
+            text: '下載',
+            link: 'https://github.com/yoshiko2/movie_data_capture/releases',
           },
         ],
       },
