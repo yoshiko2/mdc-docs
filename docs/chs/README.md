@@ -5,8 +5,9 @@
 可在网页端登录后，进行个性化配置  
 强烈建议阁下申请TMDB API填入配置中，以获得更佳使用体验
 ## 2. 购买激活码激活订阅
-**内测阶段**只开放购买一年订阅，暂无自动发放激活码。请优先使用下方USDT地址转账，ZFB WX也可以私聊此[Telegram](https://t.me/yoshiko2_dev)付款，然后发送付款截图
-* 一年订阅为100`CNY`或者14`USDT`
+**内测阶段**只开放购买一年订阅，暂无自动发放激活码。私聊此[Telegram](https://t.me/yoshiko2_dev)付款，发送付款截图后领取激活码
+* 支持: 香港FPS转账, USDT支付, WX, ZFB, 
+* 一年订阅为110`HKD`, 14`USDT`, 100`CNY`
 * USDT TRC20地址: `TCVvFxeMuHFaECVMiHrxWD9b5QGX8DVQNV`
 ## 3. [下载](https://github.com/yoshiko2/movie_data_capture/releases/latest) 客户端
 本文档适用版本为7.X.X及以上
