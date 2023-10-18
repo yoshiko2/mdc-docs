@@ -8,7 +8,6 @@
 **内测阶段**只开放购买一年订阅，暂无自动发放激活码。私聊此[Telegram](https://t.me/yoshiko2_dev)付款，发送付款截图后领取激活码
 * 支持: 香港FPS转账, USDT支付, WX, ZFB, 
 * 一年订阅为110`HKD`, 14`USDT`, 100`CNY`
-* USDT TRC20地址: `TCVvFxeMuHFaECVMiHrxWD9b5QGX8DVQNV`
 ## 3. [下载](https://github.com/yoshiko2/movie_data_capture/releases/latest) 客户端
 本文档适用版本为7.X.X及以上
 ## 4. 打开客户端 登录账号
