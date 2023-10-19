@@ -1,4 +1,5 @@
 # 异常处理
 
-* `Caused by ProxyError('Cannot connect to proxy.')`
-请检查代理，如果自定义代理未开启，请开启全局代理后运行
+* `Caused by ProxyError`  
+请检查代理，如果自定义代理未开启，请开启全局代理后运行  
+如果错误依旧，请更换代理节点
