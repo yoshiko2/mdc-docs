@@ -54,6 +54,10 @@ export default {
             link: '/chs/bug_report.md',
           },
           {
+            text: '错误处理',
+            link: '/chs/error.md',
+          },
+          {
             text: '法律文件',
             children: [
               {
