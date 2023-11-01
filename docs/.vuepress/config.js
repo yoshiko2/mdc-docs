@@ -54,6 +54,10 @@ export default {
             link: '/chs/cli.md',
           },
           {
+            text: '云配置',
+            link: '/chs/configuration.md',
+          },
+          {
             text: 'BUG报告',
             link: '/chs/bug_report.md',
           },
