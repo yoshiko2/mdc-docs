@@ -42,6 +42,10 @@ export default {
             link: '/chs/README.md',
           },
           {
+            text: '各版本客户端使用方式',
+            link: '/chs/clients.md',
+          },
+          {
             text: '影片命名规则',
             link: '/chs/naming.md',
           },

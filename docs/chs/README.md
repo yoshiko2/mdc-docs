@@ -13,6 +13,7 @@
 ## 3. [下载](https://github.com/yoshiko2/movie_data_capture/releases/latest) 客户端
 本文档适用版本为7.X.X及以上
 ## 4. 打开客户端 登录账号
+[各版本客户端使用方式](/chs/clients.html)
 每个账号最多可登录4台设备
 ## 5. 在客户端配置页中 配置输入输出文件夹
 **进行任何更改后务必点击`保存`**  
