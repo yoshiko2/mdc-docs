@@ -59,7 +59,7 @@ export default {
           },
           {
             text: '法律文件',
-            link: '/chs/README.md',
+            link: '/chs/laws/README.md',
             children: [
               {
                 text: '最终用户条款',
