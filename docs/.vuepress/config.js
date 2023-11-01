@@ -39,7 +39,7 @@ export default {
         sidebar: [
           {
             text: '首页',
-            link: '/chs/readme.md',
+            link: '/chs/README.md',
           },
           {
             text: '影片命名规则',
@@ -59,6 +59,7 @@ export default {
           },
           {
             text: '法律文件',
+            link: '/chs/README.md',
             children: [
               {
                 text: '最终用户条款',
