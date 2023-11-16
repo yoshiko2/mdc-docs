@@ -8,7 +8,7 @@
 * `-z` 名称提取模式
 * `-C` 本地配置文件覆盖模式，仅限于覆盖非云同步的配置，如输入输出目录配置，多个配置使用`;`分隔，实例如下
 ```shell
-./mdc -cli -C "common:source_folder=['/a/video1'];common:success_folder=/a/output2"
+./mdc -cli -C "common:source_folders=['/a/video1'];common:success_folder=/a/output2"
 ```
 * `-r` 受限模式
 
