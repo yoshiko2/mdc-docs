@@ -32,5 +32,10 @@
 ## 8. 结尾
 * 可将输出文件夹导入于Emby, Jellyfin, Plex等媒体管理器中，展示海报墙和管理影片
 
+---
+
+## 访问程序日志
+系统用户所在目录下的 `.mdc/logs`
+
 ### 售后联系
 yoshiko2.dev@gmail.com

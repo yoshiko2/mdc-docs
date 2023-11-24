@@ -74,6 +74,10 @@ export default {
             link: '/chs/error.md',
           },
           {
+            text: '清空配置',
+            link: '/chs/clean_config.md',
+          },
+          {
             text: '法律文件',
             link: '/chs/laws/README.md',
             children: [
