@@ -62,11 +62,11 @@ export default {
             link: '/chs/configuration.md',
           },
           {
-            text: '云盘挂载工具或NAS的配套使用',
+            text: '云盘挂载与NAS相关说明',
             link: '/chs/cloud_mount.md',
           },
           {
-            text: 'BUG报告',
+            text: 'BUG报告与功能建议',
             link: '/chs/bug_report.md',
           },
           {
