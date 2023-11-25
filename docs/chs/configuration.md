@@ -38,9 +38,6 @@
 | `tag` | 类型 |
 | `outline` | 简介 |
 | `runtime` | 时长 |
-| `runtime` | 时长 |
-| `runtime` | 时长 |
-| `runtime` | 时长 |
 | `series` | 系列 |
 
 上面的参数以下都称之为**变量**
