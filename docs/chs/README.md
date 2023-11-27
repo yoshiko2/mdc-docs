@@ -14,7 +14,9 @@
 * 扫码支付请打开下面折叠内容
 
 <details>
+
 ![](/images/pay.png)
+
 </details>
 
 ## 3. [下载](https://dl.mvdc.top) 客户端
