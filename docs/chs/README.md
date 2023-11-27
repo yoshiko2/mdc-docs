@@ -10,9 +10,13 @@
 * 100`CNY` 110`HKD` 14`USDT`的年付
 * 50 `CNY` 55 `HKD` 7 `USDT`的半年付
 ### 月付请等待内测结束；已停止6.6.7的支持，不保证可用性
-* 私聊[Telegram](https://t.me/yoshiko2_dev)或发送邮箱`yoshiko2.dev@gmail.com`付款
-* 索要支付链接或二维码后，发送付款截图后领取激活码
-* 请不要询问`在吗`，直接回答：`年付/半年付，FPS/USDT/ZFB`
+* 私聊[Telegram](https://t.me/yoshiko2_dev)或发送邮箱`yoshiko2.dev@gmail.com`发送付款截图，将尽快给阁下发送激活信息
+* 扫码支付请打开下面折叠内容
+
+<details>
+![](/images/pay.png)
+</details>
+
 ## 3. [下载](https://dl.mvdc.top) 客户端
 本文档适用版本为7.X.X及以上
 ## 4. 打开客户端 登录账号
