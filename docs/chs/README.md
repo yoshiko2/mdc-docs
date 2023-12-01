@@ -13,13 +13,8 @@
 ### 月付请等待内测结束；已停止6.6.7的支持，不保证可用性
 * 私聊[Telegram](https://t.me/yoshiko2_dev)或发送邮箱`yoshiko2.dev@gmail.com`发送付款截图，将尽快给阁下发送激活信息
 * 台灣及其他地区可通過WISE匯款至香港轉速快FPS，具體匯款信息請私聊或郵箱
-* 扫码支付请打开下面详情折叠内容，支持: `USDT TRC20`, `轉速快FPS`，`ZFB`
-
-<details>
 
 ![](/images/pay.png)
-
-</details>
 
 ## 3. [下载](https://dl.mvdc.top) 客户端
 本文档适用版本为7.X.X及以上
