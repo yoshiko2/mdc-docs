@@ -21,8 +21,6 @@
 
 ![](/images/example1.png)
 ![](/images/example2.png)
-![](/images/example3.png)
-![](/images/example4.png)
 
 ### 无需判断大小写
 * 普通影片 ：`xxx-888.mp4`
