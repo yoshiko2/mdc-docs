@@ -50,11 +50,11 @@ export default {
             link: '/chs/clients.md',
           },
           {
-            text: '命令行参数与配置文件',
+            text: '命令行参数与配置文件编辑',
             link: '/chs/cli.md',
           },
           {
-            text: '客户端配置',
+            text: '客户端本地配置',
             link: '/chs/client_configuration.md',
           },
           {

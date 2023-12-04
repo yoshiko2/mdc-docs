@@ -1,4 +1,4 @@
-# 命令行参数与配置
+# 命令行参数与配置文件编辑
 ## 参数
 以下所有参数为可选参数
 * `file` [单文件模式](#单文件模式) file为文件路径
@@ -50,6 +50,16 @@ success_folder_restricted =
 ### success_folder_restricted
 受限电影成功输出目录 直接输入目录路径 实例如下
 > success_folder_restricted = /home/test/output-other
+
+### cloud_config_instance
+选择一般电影云配置实例，默认为`Default`，如自定义请填写新建配置实例名称  
+如果实例名称不存在，则会使用`Default`
+> cloud_config_instance = Default
+
+### cloud_config_instance_restricted
+选择受限电影云配置实例，默认为`Default`，如自定义请填写新建配置实例名称  
+如果实例名称不存在，则会使用`Default`
+> cloud_config_instance_restricted = Default
 
 ```ini
 [name_parse]
