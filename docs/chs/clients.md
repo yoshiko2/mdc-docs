@@ -87,7 +87,7 @@ docker run --rm --name mdc -it \
   -e NAME=MDC-Docker
   -e cloud_username=USERNAME \
   -e cloud_password=PASSWORD \
-  mvdctop/mdc:latest
+  mvdctop/mdc:7.0.3
 ```
 
 
