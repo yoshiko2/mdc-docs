@@ -55,7 +55,7 @@
 
 ### 拉取Docker镜像
 ```sh
-docker pull mvdctop/mdc:7.0.3
+sudo docker pull mvdctop/mdc:7.0.3
 mkdir test output
 ```
 
@@ -67,16 +67,16 @@ touch ./test/生化危机.2002.mp4
 
 ### 第一次运行，在当前`config`目录下注入默认配置文件
 ```sh
-docker run --rm --name mdc -it \
+sudo docker run --rm --name mdc -it \
   -v ${PWD}/config:/config/.mdc \
-  mvdctop/mdc:latest
+  mvdctop/mdc:7.0.3
 ```
 
 此时，当前目录下的config文件夹出现mdc.ini文件，可根据自身需求，参考[配置文件](https://docs.mvdc.top/chs/cli.html)进行编辑，请勿修改mdc.ini中的**目录配置**和**token**
 
 ### 运行容器
 ```sh
-docker run --rm --name mdc -it \
+sudo docker run --rm --name mdc -it \
   -v ${PWD}/test:/source \
   -v ${PWD}/output:/output \
   -v ${PWD}/test-r:/source-r \
@@ -94,7 +94,7 @@ docker run --rm --name mdc -it \
 ## 后续运行
 * 非首次运行，可以删除`cloud_username`和`cloud_password`，登录凭据已被写入配置
 ```sh
-docker run --rm --name mdc -it \
+sudo docker run --rm --name mdc -it \
   -v ${PWD}/test:/source \
   -v ${PWD}/output:/output \  
   -v ${PWD}/test-r:/source-r \
