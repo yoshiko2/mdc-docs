@@ -55,7 +55,7 @@
 
 ### 拉取Docker镜像
 ```sh
-docker pull mvdctop/mdc:latest
+docker pull mvdctop/mdc:7.0.3
 mkdir test output
 ```
 
@@ -108,8 +108,9 @@ docker run --rm --name mdc -it \
 * 如显示被踢出，则需再次输入`cloud_username`和`cloud_password`环境变量
 * 如需要改名，则需要删除容器再次进行上一步的拉取，进行首次运行操作
 
-然后你会看到如下输出，如果输出如下证明工作正常：
+然后你会看到如下输出，如果输出如下证明工作正常
 
+```sh
 ---Setup Timezone to Asia/Shanghai---
 ---Checking if UID: 1000 matches user---
 ---Checking if GID: 1000 matches user---
