@@ -8,7 +8,12 @@
 ## 2. 购买激活码激活订阅
 ### 当前内测阶段只开放：
 * 100`CNY` 110`HKD` 14`USDT`的年付
+* 
+<details>
+
 * 50`CNY` 55`HKD`的半年付
+
+</details>
 
 ### 月付请等待内测结束；已停止6.6.7的支持，不保证可用性
 * 私聊[Telegram](https://t.me/yoshiko2_dev)或发送邮箱`yoshiko2.dev@gmail.com`发送付款截图，将尽快给阁下发送激活信息
