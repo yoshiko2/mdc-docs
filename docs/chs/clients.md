@@ -55,7 +55,7 @@
 
 ### 拉取Docker镜像
 ```sh
-sudo docker pull mvdctop/mdc:7.0.3
+sudo docker pull mvdctop/mdc
 mkdir test output
 ```
 
@@ -69,7 +69,7 @@ touch ./test/生化危机.2002.mp4
 ```sh
 sudo docker run --rm --name mdc -it \
   -v ${PWD}/config:/config/.mdc \
-  mvdctop/mdc:7.0.3
+  mvdctop/mdc
 ```
 
 此时，当前目录下的config文件夹出现mdc.ini文件，可根据自身需求，参考[配置文件](https://docs.mvdc.top/chs/cli.html)进行编辑，请勿修改mdc.ini中的**目录配置**和**token**
@@ -87,7 +87,7 @@ sudo docker run --rm --name mdc -it \
   -e NAME=MDC-Docker
   -e cloud_username=USERNAME \
   -e cloud_password=PASSWORD \
-  mvdctop/mdc:7.0.3
+  mvdctop/mdc
 ```
 
 
@@ -102,7 +102,7 @@ sudo docker run --rm --name mdc -it \
   -v ${PWD}/config:/config/.mdc \
   -e UID=$(stat -c %u test) \
   -e GID=$(stat -c %g test) \
-  mvdctop/mdc:latest
+  mvdctop/mdc
 ```
 
 * 如显示被踢出，则需再次输入`cloud_username`和`cloud_password`环境变量
