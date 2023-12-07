@@ -4,9 +4,9 @@
 ![](/images/example3.png)
 
 `Inception.2010.UHD.BluRay.1080p.DTS.HDR.x265-TnP.mkv`  
-`Kung.Fu.Hustle.2004.BluRay.1080p.x265.10bit.2Audio.MNHD-FRDS.mkv`
-`火星救援.2015.mp4`
-`生化危机.2002.1080p.mp4`
+`Kung.Fu.Hustle.2004.BluRay.1080p.x265.10bit.2Audio.MNHD-FRDS.mkv`  
+`火星救援.2015.mp4`  
+`生化危机.2002.1080p.mp4`  
 
 ## 测试通过的命名
 `[扫毒].The.White.Storm.2013.BluRay.1080p.x264.DTS.2Audios-CMCT.mp4`  
@@ -14,8 +14,7 @@
 `[电影某堂www.dyxxxx.com]切尔诺贝利日记-2012_蓝光中英双字.mp4`  
 `阳某电影dyxxx.org.蓝甲虫.2023.BD.1080P.中英双字.mkv`  
 `修理钓线.2023.HD1080P.AAC.H264.CHS.BT世某网.[www.btsxx.com].mp4`  
-`某影世界www.movie.com.测试.2022.HD.1080P.中英双字.mkv`  
-`肖申克的救赎BD(国语)中字1280高清版无水印.mp4`  
+`某影世界www.movie.com.测试.2022.HD.1080P.中英双字.mkv`
 `救赎之日.BD.1080p.中英双字.mp4`  
 
 ## 其他电影
