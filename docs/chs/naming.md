@@ -1,12 +1,13 @@
 # 一般电影命名规则
 
 ## 建议命名规则
+![](/images/example3.png)
 `Inception.2010.UHD.BluRay.1080p.DTS.HDR.x265-TnP.mkv`  
 `Kung.Fu.Hustle.2004.BluRay.1080p.x265.10bit.2Audio.MNHD-FRDS.mkv`  
 `火星救援.1080p.mp4`
 
 ## 测试通过实例
-`[扫毒].The.White.Storm.2013.BluRay.1080p.x264.DTS.2Audios-CMCT`  
+`[扫毒].The.White.Storm.2013.BluRay.1080p.x264.DTS.2Audios-CMCT.mp4`  
 `为奴十二年.mp4`  
 `[电影某堂www.dyxxxx.com]切尔诺贝利日记-2012_蓝光中英双字.mp4`  
 `阳某电影dyxxx.org.蓝甲虫.2023.BD.1080P.中英双字.mkv`  
@@ -47,7 +48,7 @@
 </details>
 
 ### 如何打开其他电影刮削模式
-请确保能正常连接Google，点击客户端`配置`中`测试连接`，在测试成功能连接Google后，方可在下方勾选`其他模式`后，配置输入输出目录，点击`运行`
+请确保能正常连接Google，点击客户端`配置`中`测试连接`，在测试成功能连接Google后，方可在下方勾选`受限模式`后，配置输入输出目录，点击`运行`
 
 ### 独立的目录配置
 与**一般**的输入输出目录**相互独立**，输出目录默认为`output-r`

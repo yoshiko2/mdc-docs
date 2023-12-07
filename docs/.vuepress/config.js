@@ -46,7 +46,7 @@ export default {
             link: '/chs/naming.md',
           },
           {
-            text: '各版本客户端使用方式',
+            text: '各客户端使用方式',
             link: '/chs/clients.md',
           },
           {
