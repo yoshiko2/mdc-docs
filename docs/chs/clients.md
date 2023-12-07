@@ -33,8 +33,8 @@
 | UID            | uid                        | 99         |
 | GID            | gid                        | 100        |
 | UMASK          | source, output目录的umask     | 002        |
-| ARGS           | [运行参数](/chs/cli.html#运行参数) | 无          |
 | NAME           | 网页端显示的设备名称                 | MDC-Docker |
+| ARGS           | [运行参数](/chs/cli.html#运行参数) | 无          |
 | cloud_username | 网页端的用户名                    | 无          |
 | cloud_password | 网页端的密码                     | 无          |
 
@@ -51,11 +51,11 @@
 * 如果刮削或整理**其他**影片，且已经修改[本地配置](/chs/client_configuration.html)或`ARGS`添加[运行参数](/chs/cli.html#运行参数)，则在下文可无需设置`/source` `/output` 参数
 
 ## 首次运行
-
+建议先将当前用户添加至Docker用户组中，具体请谷歌，免去sudo运行造成的目录权限问题
 
 ### 拉取Docker镜像
 ```sh
-sudo docker pull mvdctop/mdc
+docker pull mvdctop/mdc
 mkdir test output
 ```
 
@@ -67,7 +67,7 @@ touch ./test/生化危机.2002.mp4
 
 ### 第一次运行，在当前`config`目录下注入默认配置文件
 ```sh
-sudo docker run --rm --name mdc -it \
+docker run --rm --name mdc -it \
   -v ${PWD}/config:/config/.mdc \
   mvdctop/mdc
 ```
@@ -76,7 +76,7 @@ sudo docker run --rm --name mdc -it \
 
 ### 运行容器
 ```sh
-sudo docker run --rm --name mdc -it \
+docker run --rm --name mdc -it \
   -v ${PWD}/test:/source \
   -v ${PWD}/output:/output \
   -v ${PWD}/test-r:/source-r \
@@ -84,6 +84,7 @@ sudo docker run --rm --name mdc -it \
   -v ${PWD}/config:/config/.mdc \
   -e UID=$(stat -c %u test) \
   -e GID=$(stat -c %g test) \
+  -e ARGS="" \
   -e NAME=MDC-Docker
   -e cloud_username=USERNAME \
   -e cloud_password=PASSWORD \
@@ -94,7 +95,7 @@ sudo docker run --rm --name mdc -it \
 ## 后续运行
 * 非首次运行，可以删除`cloud_username`和`cloud_password`，登录凭据已被写入配置
 ```sh
-sudo docker run --rm --name mdc -it \
+docker run --rm --name mdc -it \
   -v ${PWD}/test:/source \
   -v ${PWD}/output:/output \  
   -v ${PWD}/test-r:/source-r \
@@ -102,6 +103,7 @@ sudo docker run --rm --name mdc -it \
   -v ${PWD}/config:/config/.mdc \
   -e UID=$(stat -c %u test) \
   -e GID=$(stat -c %g test) \
+  -e ARGS="" \
   mvdctop/mdc
 ```
 
