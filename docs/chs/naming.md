@@ -1,12 +1,14 @@
-# 一般电影命名规则
+# 影片命名规则
 
-## 建议命名规则
+## 建议的命名
 ![](/images/example3.png)
-`Inception.2010.UHD.BluRay.1080p.DTS.HDR.x265-TnP.mkv`  
-`Kung.Fu.Hustle.2004.BluRay.1080p.x265.10bit.2Audio.MNHD-FRDS.mkv`  
-`火星救援.1080p.mp4`
 
-## 测试通过实例
+`Inception.2010.UHD.BluRay.1080p.DTS.HDR.x265-TnP.mkv`  
+`Kung.Fu.Hustle.2004.BluRay.1080p.x265.10bit.2Audio.MNHD-FRDS.mkv`
+`火星救援.2015.mp4`
+`生化危机.2002.1080p.mp4`
+
+## 测试通过的命名
 `[扫毒].The.White.Storm.2013.BluRay.1080p.x264.DTS.2Audios-CMCT.mp4`  
 `为奴十二年.mp4`  
 `[电影某堂www.dyxxxx.com]切尔诺贝利日记-2012_蓝光中英双字.mp4`  
