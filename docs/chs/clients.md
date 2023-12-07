@@ -28,14 +28,15 @@
 
 本镜像增加了权限设置功能，你可以通过使用 UID (用户id) GID (组id) 两个环境变量来配置程序运行后所有文件的权限。
 
-| 字段名           | 值语义           | 预设值        |
-| :-------------- | :--------------  | :------------ |
-| UID             | uid              | 99            |
-| GID             | gid              | 100           |
-| UMASK           | source, output目录的umask  | 002           |
-| NAME            | 网页端显示的设备名称 | MDC-Docker |
-| cloud_username  | 网页端的用户名  | 无 |
-| cloud_password  | 网页端的密码  | 无 |
+| 字段名            | 值语义                        | 预设值        |
+|:---------------|:---------------------------|:-----------|
+| UID            | uid                        | 99         |
+| GID            | gid                        | 100        |
+| UMASK          | source, output目录的umask     | 002        |
+| ARGS           | [运行参数](/chs/cli.html#运行参数) | 无          |
+| NAME           | 网页端显示的设备名称                 | MDC-Docker |
+| cloud_username | 网页端的用户名                    | 无          |
+| cloud_password | 网页端的密码                     | 无          |
 
 ## 卷
 | Docker卷 | 解释 |
@@ -47,7 +48,7 @@
 | /config/.mdc |  配置文件目录 |
 
 * 如果刮削或整理**一般**影片，则在下文可无需设置`/source-r` `/output-r` 参数
-* 如果刮削或整理**其他**影片，且已经修改相关配置，则在下文可无需设置`/source` `/output` 参数
+* 如果刮削或整理**其他**影片，且已经修改[本地配置](/chs/client_configuration.html)或`ARGS`添加[运行参数](/chs/cli.html#运行参数)，则在下文可无需设置`/source` `/output` 参数
 
 ## 首次运行
 
