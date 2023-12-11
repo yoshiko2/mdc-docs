@@ -36,7 +36,7 @@
 
 </details>
 
-* **直接发送付款截图**，不用问`在吗`，私聊[Telegram](https://t.me/yoshiko2_dev)或发送邮箱`yoshiko2.dev@gmail.com`
+* **直接发送付款截图**，不用问`在吗`，私聊[Telegram](https://t.me/yoshiko2_dev)或发送邮箱`yoshiko2.dev@gmail.com`，邮件标题：`付款截图`
 * 将尽快给阁下发送激活信息，**别急**，最快秒回最晚数小时
 * 台灣及其他地区可通過WISE匯款至香港轉速快FPS，具體匯款信息請私聊或郵箱
 
