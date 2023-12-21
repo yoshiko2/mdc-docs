@@ -39,15 +39,15 @@
 | cloud_password | 网页端的密码                     | 无          |
 
 ## 卷
-| Docker卷 | 解释 |
-| :--- | :----|
+| Docker卷      | 解释 |
+|:-------------| :----|
 | /source      | 一般影片刮削目录 |
 | /output      | 一般影片输出目录 |
-| /source-r    | 其他影片刮削目录 |
-| /output-r    | 其他影片输出目录 |
+| /source-o    | 其他影片刮削目录 |
+| /output-o    | 其他影片输出目录 |
 | /config/.mdc |  配置文件目录 |
 
-* 如果刮削或整理**一般**影片，则在下文可无需设置`/source-r` `/output-r` 参数
+* 如果刮削或整理**一般**影片，则在下文可无需设置`/source-o` `/output-o` 参数
 * 如果刮削或整理**其他**影片，且已经修改[本地配置](/chs/client_configuration.html)或`ARGS`添加[运行参数](/chs/cli.html#运行参数)，则在下文可无需设置`/source` `/output` 参数
 
 ## 首次运行
@@ -79,8 +79,8 @@ docker run --rm --name mdc -it \
 docker run --rm --name mdc -it \
   -v ${PWD}/test:/source \
   -v ${PWD}/output:/output \
-  -v ${PWD}/test-r:/source-r \
-  -v ${PWD}/output-r:/output-r \
+  -v ${PWD}/test-o:/source-o \
+  -v ${PWD}/output-o:/output-o \
   -v ${PWD}/config:/config/.mdc \
   -e UID=$(stat -c %u test) \
   -e GID=$(stat -c %g test) \
@@ -98,8 +98,8 @@ docker run --rm --name mdc -it \
 docker run --rm --name mdc -it \
   -v ${PWD}/test:/source \
   -v ${PWD}/output:/output \  
-  -v ${PWD}/test-r:/source-r \
-  -v ${PWD}/output-r:/output-r \
+  -v ${PWD}/test-o:/source-o \
+  -v ${PWD}/output-o:/output-o \
   -v ${PWD}/config:/config/.mdc \
   -e UID=$(stat -c %u test) \
   -e GID=$(stat -c %g test) \
