@@ -45,6 +45,7 @@
 * 包含字幕：`xxx-222ch.mp4` `xxx-222-C.mp4`
 * 字幕和4K：`xxx-111-c-4k.mp4`
 * AI去马赛克和包含字幕：`xxx-999-UC.mp4`
+* VR：`ddd-555-vr.mp4`
 
 </details>
 
