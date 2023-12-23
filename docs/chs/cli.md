@@ -8,7 +8,7 @@
 * `-t` 名称提取模式
 * `-s` 为输出目录下无字幕影片添加字幕
 * `-o` 其他模式
-* `-c` 云配置实例选择，默认为`Default`，选择名为test1的云配置实例`-c "test1"`
+* `--cloud-config-instance` 云配置实例选择，默认为`Default`，选择名为test1的云配置实例`--cloud-config-instance "test1"`
 * `-C` 本地配置文件覆盖模式，仅限于覆盖客户端本地配置，如输入输出目录配置，多个配置使用`;`分隔，实例如下
 ```shell
 ./MDC -cli -C "common:source_folders=['/a/video1'];common:success_folder=/a/output2"
