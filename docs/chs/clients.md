@@ -52,7 +52,9 @@
 * 如果刮削或整理**一般**影片，则在下文可无需设置`/source-o` `/output-o` 参数
 * 如果刮削或整理**其他**影片，则在`ARGS`添加[运行参数](/chs/cli.html#运行参数)`-o`，在下文可无需设置`/source` `/output` 参数
 
-## 教程：DSM（图形界面） ↓
+#### 以下教程二选一
+
+## DSM（图形界面）
 
 <details>
 
@@ -90,7 +92,7 @@
 
 </details>
 
-## 教程：Linux Shell ↓
+## Linux Shell
 
 <details>
 
