@@ -50,7 +50,50 @@
 | /config/.mdc |  配置文件目录 |
 
 * 如果刮削或整理**一般**影片，则在下文可无需设置`/source-o` `/output-o` 参数
-* 如果刮削或整理**其他**影片，且已经修改[本地配置](/chs/client_configuration.html)或`ARGS`添加[运行参数](/chs/cli.html#运行参数)，则在下文可无需设置`/source` `/output` 参数
+* 如果刮削或整理**其他**影片，则在`ARGS`添加[运行参数](/chs/cli.html#运行参数)`-o`，在下文可无需设置`/source` `/output` 参数
+
+## 教程：DSM（图形界面） ↓
+
+<details>
+
+### 简要流程
+* 打开`Container Manager`下载`mvdctop/mdc`映像
+* 创建容器，只需给环境变量`ARGS`设置一个空格即可，不勾选完成后运行此容器
+* 在容器页面中，右键详情，设置卷和环境变量
+* 编辑卷
+* 连接SSH，输入`id`命令获取当前用户 `UID` `GID`，填入环境变量
+* 编辑环境变量：填写`cloud_username`和`cloud_password`，可根据需要填写`ARGS`[运行参数](/chs/cli.html#运行参数)
+* 保存后运行，第一次运行会在`config`目录下生成`mdc.ini`文件，可证据需要配置，如配置代理
+* 第二次运行后，查看日志后如果正常，则可在运行结束后移除环境变量`cloud_username`和`cloud_password`
+
+### 图文流程
+* 打开`Container Manager`下载`mvdctop/mdc`映像
+![](/images/docker/1.jpg)
+![](/images/docker/2.jpg)
+![](/images/docker/3.jpg)
+![](/images/docker/4.jpg)
+* 创建容器，只需给环境变量`ARGS`设置一个空格即可，不勾选完成后运行此容器
+![](/images/docker/5.jpg)
+![](/images/docker/6.jpg)
+* 在容器页面中，右键详情，设置卷和环境变量
+![](/images/docker/7.jpg)
+![](/images/docker/8.jpg)
+* 连接SSH，输入`id`命令获取当前用户 `UID` `GID`，填入环境变量
+* 编辑环境变量：填写`cloud_username`和`cloud_password`，可根据需要填写`ARGS`[运行参数](/chs/cli.html#运行参数)
+![](/images/docker/id.jpg)
+![](/images/docker/9.jpg)
+* 保存后运行，第一次运行会在`config`目录下生成`mdc.ini`文件，可证据需要配置，如配置代理
+![](/images/docker/10.jpg)
+* 第二次运行后，查看日志后如果正常，则可在运行结束后移除环境变量`cloud_username`和`cloud_password`
+![](/images/docker/11.jpg)
+
+
+</details>
+
+## 教程：Linux Shell ↓
+
+<details>
+
 
 ## 首次运行
 建议先将当前用户添加至Docker用户组中，具体请谷歌，免去sudo运行造成的目录权限问题
@@ -149,4 +192,6 @@ Starting...
 [+]All finished!!!
 - Log file '/config/.mdc/logs/mdc_2023xxxxTxxxxxx.txt' saved
 ```
+
+</details>
 
