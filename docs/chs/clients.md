@@ -79,8 +79,8 @@
 ![](/images/docker/7.jpg)
 ![](/images/docker/8.jpg)
 * 连接SSH，输入`id`命令获取当前用户 `UID` `GID`，填入环境变量
-* 编辑环境变量：填写`cloud_username`和`cloud_password`，可根据需要填写`ARGS`[运行参数](/chs/cli.html#运行参数)
 ![](/images/docker/id.jpg)
+* 编辑环境变量：填写`cloud_username`和`cloud_password`，可根据需要填写`ARGS`[运行参数](/chs/cli.html#运行参数)
 ![](/images/docker/9.jpg)
 * 保存后运行，第一次运行会在`config`目录下生成`mdc.ini`文件，可证据需要配置，如配置代理
 ![](/images/docker/10.jpg)
