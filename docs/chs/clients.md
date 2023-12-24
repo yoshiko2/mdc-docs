@@ -64,7 +64,7 @@
 * 在容器页面中，右键详情，设置卷和环境变量
 * 编辑卷
 * 连接SSH，输入`id`命令获取当前用户 `UID` `GID`，填入环境变量
-* 编辑环境变量：填写`cloud_username`和`cloud_password`，可根据需要填写`ARGS`[运行参数](/chs/cli.html#运行参数)
+* 编辑环境变量：根据阁下的[注册](https://docs.mvdc.top/chs/#_1-%E5%9C%A8%E7%BD%91%E9%A1%B5%E7%AB%AF%E7%9A%84%E7%94%A8%E6%88%B7%E9%9D%A2%E6%9D%BF%E6%B3%A8%E5%86%8C%E8%B4%A6%E5%8F%B7)的用户名和密码，且已经激活，填写`cloud_username`和`cloud_password`，可根据需要填写`ARGS`[运行参数](/chs/cli.html#运行参数)
 * 保存后运行，第一次运行会在`config`目录下生成`mdc.ini`文件，可证据需要配置，如配置代理
 * 第二次运行后，查看日志后如果正常，则可在运行结束后移除环境变量`cloud_username`和`cloud_password`
 
@@ -82,7 +82,7 @@
 ![](/images/docker/8.jpg)
 * 连接SSH，输入`id`命令获取当前用户 `UID` `GID`，填入环境变量
 ![](/images/docker/id.jpg)
-* 编辑环境变量：填写`cloud_username`和`cloud_password`，可根据需要填写`ARGS`[运行参数](/chs/cli.html#运行参数)
+* 编辑环境变量：根据阁下的[注册](https://docs.mvdc.top/chs/#_1-%E5%9C%A8%E7%BD%91%E9%A1%B5%E7%AB%AF%E7%9A%84%E7%94%A8%E6%88%B7%E9%9D%A2%E6%9D%BF%E6%B3%A8%E5%86%8C%E8%B4%A6%E5%8F%B7)的用户名和密码，且已经激活，填写`cloud_username`和`cloud_password`，可根据需要填写`ARGS`[运行参数](/chs/cli.html#运行参数)
 ![](/images/docker/9.jpg)
 * 保存后运行，第一次运行会在`config`目录下生成`mdc.ini`文件，可证据需要配置，如配置代理
 ![](/images/docker/10.jpg)
