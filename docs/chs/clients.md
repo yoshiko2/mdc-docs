@@ -30,27 +30,31 @@
 
 本镜像增加了权限设置功能，你可以通过使用 UID (用户id) GID (组id) 两个环境变量来配置程序运行后所有文件的权限。
 
-| 字段名            | 值语义                        | 预设值        |
-|:---------------|:---------------------------|:-----------|
-| UID            | uid                        | 99         |
-| GID            | gid                        | 100        |
-| UMASK          | source, output目录的umask     | 002        |
-| NAME           | 网页端显示的设备名称                 | MDC-Docker |
-| ARGS           | [运行参数](/chs/cli.html#运行参数) | 无          |
-| cloud_username | 网页端的用户名                    | 无          |
-| cloud_password | 网页端的密码                     | 无          |
+| 字段名                   | 值语义                          | 预设值         |
+|:----------------------|:-----------------------------|:------------|
+| UID                   | uid                          | 99          |
+| GID                   | gid                          | 100         |
+| UMASK                 | source, output目录的umask       | 002         |
+| NAME                  | 网页端显示的设备名称                   | MDC-Docker  |
+| ARGS                  | [运行参数](/chs/cli.html#运行参数)   | 无           |
+| cloud_username        | 网页端的用户名                      | 无           |
+| cloud_password        | 网页端的密码                       | 无           |
+| cloud_config_instance | 云配置实例名称                      | Default     |
 
 ## 卷
-| Docker卷      | 解释 |
-|:-------------| :----|
+| Docker卷      | 解释       |
+|:-------------|:---------|
 | /source      | 一般影片刮削目录 |
 | /output      | 一般影片输出目录 |
 | /source-o    | 其他影片刮削目录 |
 | /output-o    | 其他影片输出目录 |
-| /config/.mdc |  配置文件目录 |
+| /subs        | 一般影片字幕目录 |
+| /subs-o      | 其他影片字幕目录 |
+| /config/.mdc | 配置文件目录   |
 
-* 如果刮削或整理**一般**影片，则在下文可无需设置`/source-o` `/output-o` 参数
-* 如果刮削或整理**其他**影片，则在`ARGS`添加[运行参数](/chs/cli.html#运行参数)`-o`，在下文可无需设置`/source` `/output` 参数
+* 如果刮削或整理**一般**影片，则只需设置`/source` `/output` 卷
+* 如果刮削或整理**其他**影片，则在`ARGS`添加[运行参数](/chs/cli.html#运行参数)`-o`，和只需设置`/source-o` `/output-o` 卷
+* 如果需要整理外挂字幕文件，则设置`/subs`或`/subs-o`卷
 
 #### 以下教程二选一
 
