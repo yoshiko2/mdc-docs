@@ -54,7 +54,7 @@
 
 * 如果刮削或整理**一般**影片，则只需设置`/source` `/output` 卷
 * 如果刮削或整理**其他**影片，则在`ARGS`添加[运行参数](/chs/cli.html#运行参数)`-o`，和只需设置`/source-o` `/output-o` 卷
-* 如果需要整理外挂字幕文件，则设置`/subs`或`/subs-o`卷
+* 如果需要整理外挂字幕文件，则在配置文件`config/mdc.ini`中修改`[subs]switch=1`后，设置`/subs`或`/subs-o`卷
 
 #### 以下教程二选一
 
