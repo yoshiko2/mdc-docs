@@ -53,7 +53,7 @@
 | /config/.mdc | 配置文件目录   |
 
 * 如果刮削或整理**一般**影片，则只需设置`/source` `/output` 卷
-* 如果刮削或整理**其他**影片，则在`ARGS`添加[运行参数](/chs/cli.html#运行参数)`-o`，和只需设置`/source-o` `/output-o` 卷
+* 如果刮削或整理**其他**影片，则在环境变量`ARGS`添加[运行参数](/chs/cli.html#运行参数)`-o`，和只需设置`/source-o` `/output-o` 卷
 * 如果需要整理外挂字幕文件，则在配置文件`config/mdc.ini`中修改`[subs]switch=1`后，设置`/subs`或`/subs-o`卷
 
 #### 以下教程二选一
@@ -64,12 +64,13 @@
 
 ### 简要流程
 * 打开`Container Manager`下载`mvdctop/mdc`映像
-* 创建容器，只需给环境变量`ARGS`设置一个空格即可，不勾选完成后运行此容器
-* 在容器页面中，右键详情，设置卷和环境变量
-* 编辑卷
-* 连接SSH，输入`id`命令获取当前用户 `UID` `GID`，填入环境变量
-* 编辑环境变量：根据阁下的[注册](https://docs.mvdc.top/chs/#_1-%E5%9C%A8%E7%BD%91%E9%A1%B5%E7%AB%AF%E7%9A%84%E7%94%A8%E6%88%B7%E9%9D%A2%E6%9D%BF%E6%B3%A8%E5%86%8C%E8%B4%A6%E5%8F%B7)的用户名和密码，且已经激活，填写`cloud_username`和`cloud_password`，可根据需要填写`ARGS`[运行参数](/chs/cli.html#运行参数)
-* 保存后运行，第一次运行会在`config`目录下生成`mdc.ini`文件，可证据需要配置，如配置代理
+* 创建容器，设置环境变量，根据阁下的[注册](https://docs.mvdc.top/chs/#_1-%E5%9C%A8%E7%BD%91%E9%A1%B5%E7%AB%AF%E7%9A%84%E7%94%A8%E6%88%B7%E9%9D%A2%E6%9D%BF%E6%B3%A8%E5%86%8C%E8%B4%A6%E5%8F%B7)的用户名和密码，且已经激活，填写`cloud_username`和`cloud_password`，可根据需要填写`ARGS`[运行参数](/chs/cli.html#运行参数)；如果`ARGS`留空只需输入一个空格；如自定义其他云配置实例，则`cloud_config_instance`填写自定义云配置实例名称
+* 连接系统SSH，连接方法自行搜索，连接后输入`id`命令获取当前用户 `UID` `GID`，填入环境变量`UID` `GID`
+* **不勾选**完成后运行此容器
+* 在容器页面中，右键详情，编辑卷，根据自身需求与[上文](#卷)，不需要全部目录都设置
+* 左侧为宿主机目录（自行设置），右侧为容器中的目录（不可变）
+* 保存后运行
+* 第一次运行，会在`config`目录下生成`mdc.ini`文件，阅读[这里](https://docs.mvdc.top/chs/cli.html#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)根据自身需求配置，如配置代理
 * 第二次运行后，查看日志后如果正常，则可在运行结束后移除环境变量`cloud_username`和`cloud_password`
 
 ### 图文流程
@@ -78,17 +79,18 @@
 ![](/images/docker/2.jpg)
 ![](/images/docker/3.jpg)
 ![](/images/docker/4.jpg)
-* 创建容器，只需给环境变量`ARGS`设置一个空格即可，不勾选完成后运行此容器
+* 创建容器，设置环境变量，根据阁下的[注册](https://docs.mvdc.top/chs/#_1-%E5%9C%A8%E7%BD%91%E9%A1%B5%E7%AB%AF%E7%9A%84%E7%94%A8%E6%88%B7%E9%9D%A2%E6%9D%BF%E6%B3%A8%E5%86%8C%E8%B4%A6%E5%8F%B7)的用户名和密码，且已经激活，填写`cloud_username`和`cloud_password`，可根据需要填写`ARGS`[运行参数](/chs/cli.html#运行参数)；如果`ARGS`留空只需输入一个空格；如自定义其他云配置实例，则`cloud_config_instance`填写自定义云配置实例名称
+* 连接系统SSH，连接方法自行搜索，连接后输入`id`命令获取当前用户 `UID` `GID`，填入环境变量`UID` `GID`
+![](/images/docker/id.jpg)
 ![](/images/docker/5.jpg)
+* **不勾选**完成后运行此容器
 ![](/images/docker/6.jpg)
-* 在容器页面中，右键详情，设置卷和环境变量
+* 在容器页面中，右键详情，编辑卷，根据自身需求与[上文](#卷)，不需要全部目录都设置
+* 左侧为宿主机目录（自行设置），右侧为容器中的目录（不可变）
 ![](/images/docker/7.jpg)
 ![](/images/docker/8.jpg)
-* 连接SSH，输入`id`命令获取当前用户 `UID` `GID`，填入环境变量
-![](/images/docker/id.jpg)
-* 编辑环境变量：根据阁下的[注册](https://docs.mvdc.top/chs/#_1-%E5%9C%A8%E7%BD%91%E9%A1%B5%E7%AB%AF%E7%9A%84%E7%94%A8%E6%88%B7%E9%9D%A2%E6%9D%BF%E6%B3%A8%E5%86%8C%E8%B4%A6%E5%8F%B7)的用户名和密码，且已经激活，填写`cloud_username`和`cloud_password`，可根据需要填写`ARGS`[运行参数](/chs/cli.html#运行参数)
-![](/images/docker/9.jpg)
-* 保存后运行，第一次运行会在`config`目录下生成`mdc.ini`文件，可证据需要配置，如配置代理
+* 保存后运行
+* 第一次运行，会在`config`目录下生成`mdc.ini`文件，阅读[这里](https://docs.mvdc.top/chs/cli.html#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)根据自身需求配置，如配置代理
 ![](/images/docker/10.jpg)
 * 第二次运行后，查看日志后如果正常，则可在运行结束后移除环境变量`cloud_username`和`cloud_password`
 ![](/images/docker/11.jpg)
