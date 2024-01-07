@@ -25,7 +25,7 @@
 
 ## 2. 购买激活码激活订阅
 月付请等待内测结束，48小时内未激活账号将会被删除
-### 当前内测阶段只开放：
+### 当前内测阶段价格
 * 110`HKD` 100`CNY` 14`USDT`的年付
 
 * 或点击详情 ↓
@@ -36,9 +36,11 @@
 
 </details>
 
+* 台灣及其他地区，可在WISE匯款至香港FPS，[點擊](https://wise.com/zh-hk/send-money/send-money-to-fps-id#calculator)匯款，FPS ID: `106254626` Name: `mdc`
+
 * **直接发送付款截图**，不用问`在吗`，私聊[Telegram](https://t.me/yoshiko2_dev)或发送邮箱`yoshiko2.dev@gmail.com`，邮件标题：`付款截图`
-* 将尽快给阁下发送激活信息，**别急**，最快秒回最晚12小时内，无需Telegram和邮箱重复发送
-* 台灣及其他地区可通過WISE匯款至香港轉速快FPS，具體匯款信息請私聊或郵箱
+
+* 将尽快给阁下发送激活信息，最快秒回最晚12小时内，**请勿Telegram和邮箱重复发送**
 
 ![](/images/pay.png)
 
