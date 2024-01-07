@@ -36,7 +36,7 @@
 
 </details>
 
-* 台灣及其他地区，可在WISE匯款至香港FPS，[點擊](https://wise.com/zh-hk/send-money/send-money-to-fps-id#calculator)匯款，FPS ID: `106254626` Name: `mdc`
+* 台灣及其他地区，可在WISE匯款至香港FPS，[點擊](https://wise.com/zh-hk/send-money/send-money-to-fps-id#calculator)匯款，WISE匯款100HKD/年（已扣除匯款手續費），FPS ID: `106254626` Name: `mdc`
 
 * **直接发送付款截图**，不用问`在吗`，私聊[Telegram](https://t.me/yoshiko2_dev)或发送邮箱`yoshiko2.dev@gmail.com`，邮件标题：`付款截图`
 
