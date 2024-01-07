@@ -104,10 +104,13 @@
 ![](/images/docker/7.jpg)
 * 根据自身需求与[上文](#卷)，不需要全部目录都设置
 * 左侧为宿主机目录（自行设置），右侧为容器中的目录（不可变）
+* 在宿主机中新建文件夹，映射容器目录`/config/.mdc`
 ![](/images/docker/8.jpg)
 * 保存后运行
 
-* 第一次运行，会在`config`目录下生成`mdc.ini`文件，阅读[这里](https://docs.mvdc.top/chs/cli.html#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)根据自身需求配置，如配置代理
+* 第一次运行，会在`config`目录下生成`mdc.ini`文件
+* **请勿修改`[common]`下`folder`相关配置**，这是容器内的目录配置，修改会导致`源文件夹未找到`
+* 阅读[这里](https://docs.mvdc.top/chs/cli.html#%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6)根据自身需求配置，如配置代理
 ![](/images/docker/10.jpg)
 * 第二次运行后，查看日志后如果正常，则可在运行结束后移除环境变量`cloud_username`和`cloud_password`
 ![](/images/docker/11.jpg)
